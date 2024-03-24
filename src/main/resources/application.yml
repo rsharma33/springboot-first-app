@@ -1,0 +1,12 @@
+server:
+    port: 8080
+
+logging:
+    path: logs
+    level:
+        root: INFO
+
+numbersapi:
+    host: null
+    dateEndpoint: https://${numbersapi.host}/%s/%s/date
+    mathEndpoint: https://${numbersapi.host}/%s/math
